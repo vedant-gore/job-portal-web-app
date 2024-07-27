@@ -11,14 +11,14 @@
 </head>
 <body>
     <nav class="navbar">
-            <div class="container">
-                <strong><h2><a href="#" class="navbar-brand">THE JOB PORTAL WEB APP</a></h2></strong>
-                <ul class="nav-links">
-                    <li><a href="/#">HOME</a></li>
-                    <li><a href="/viewalljobs">ALL JOBS</a></li>
-                    <li><a href="https://www.linkedin.com/in/vedantgore">CONTACT</a></li>
-                </ul>
-            </div>
+        <div class="container">
+            <a href="#" class="navbar-brand">THE JOB PORTAL WEB APP</a>
+            <ul class="nav-links">
+                <li><a href="/#">HOME</a></li>
+                <li><a href="/viewalljobs">ALL JOBS</a></li>
+                <li><a href="https://www.linkedin.com/in/vedantgore">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container mt-5">

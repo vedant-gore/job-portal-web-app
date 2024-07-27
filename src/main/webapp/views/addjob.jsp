@@ -112,6 +112,7 @@
     /* Form styles */
     form {
         width: 100vh;  /* was 100% */
+        
     }
 
     .form-label {
@@ -135,6 +136,7 @@
         box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
         transition: border-color 0.3s, box-shadow 0.3s;
         width: 90vh;
+        
     }
 
     .form-control:focus, .form-select:focus {
@@ -160,14 +162,14 @@
 </head>
 <body>
     <nav class="navbar">
-            <div class="container">
-                <strong><h2><a href="#" class="navbar-brand">THE JOB PORTAL WEB APP</a></h2></strong>
-                <ul class="nav-links">
-                    <li><a href="/#">HOME</a></li>
-                    <li><a href="/viewalljobs">ALL JOBS</a></li>
-                    <li><a href="https://www.linkedin.com/in/vedantgore">CONTACT</a></li>
-                </ul>
-            </div>
+        <div class="container">
+            <a href="#" class="navbar-brand">THE JOB PORTAL WEB APP</a>
+            <ul class="nav-links">
+                <li><a href="/#">HOME</a></li>
+                <li><a href="/viewalljobs">ALL JOBS</a></li>
+                <li><a href="https://www.linkedin.com/in/vedantgore">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container">
