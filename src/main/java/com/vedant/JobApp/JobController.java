@@ -30,7 +30,7 @@ public class JobController {
         return "addjob";
     }
 
-    // @RequestMapping("handleForm", method="post")
+    // @RequestMapping("handleForm", method="post") -> by default requestapping is get
     @PostMapping("handleForm")
     //@ResponseBody
     public String handleForm(JobPost jobPost){
